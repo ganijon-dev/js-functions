@@ -1,6 +1,6 @@
 
 /* Function 1 
-
+Напишите функцию, которая принимает предложение и возвращает количество содержащихся в нем четырехбуквенных слов. 
 function fourLetterWords(sentence) { }
 console.log(fourLetterWords('This sentence is fine'));
 
@@ -16,6 +16,10 @@ console.log(fourLetterWords("this is a good sentence"))
 
 
 /* Function 2
+
+Напишите функцию, которая возвращает количество ошибок (символов, которыене совпадают) 
+в палиндроме при сравнении исходной и обратной строки.
+Например, для слова «fox» вернется 2, так как «fox» и «xof»
 
 function almostPalindromes(str) {}
 console.log(almostPalindromes('abcba'));
@@ -36,7 +40,9 @@ console.log(almostPalindromes("fasdasox"))
 
 
 /* Function 3 
-
+Напишите функцию, возвращающую сумму чисел, удовлетворяющих условию:
+• Первый параметр функции – строка, состоящая из любых символов
+• Отбираемые из строки числа, должны быть больше второго параметра
 function total(str, condition) {}
 console.log(total('aAb3b5Pc0,!9fba1,jkk2', 2));
 
@@ -50,7 +56,7 @@ const total = (string, condition) =>
 console.log(total("aA5Pc0,!9fba1", 3))
 
 /* Function 4 
-
+Напишите функцию, которая возвратит набор продуктов с максимальным качеством на имеющиеся деньги ourMoney.
 function total(in) {}
 console.log(total(ListOfProducts));
 
@@ -85,11 +91,12 @@ console.log(total_products(ListOfProducts))
 
 
 /* Function 5 
+Имеются две функции, которые изменяют переменную t = 5 по своему таймауту,
 
 timeOutA = 1000, timeOutB = 2000:
 function a (timeOutA) { setTimeout(() => { return (t * timeOut / 1000 - 4)}, timeOutA) }
 function b (timeOutB) { setTimeout(() => {return t * timeOut / 1000}, timeOutB)}
-
+Необходимо переписать данные функции используя промис, так, чтобы вычислить сумму результатов выполнения данных.
 */
 
 let t = 5,
